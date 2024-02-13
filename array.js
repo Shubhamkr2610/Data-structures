@@ -25,6 +25,13 @@
 //     i++
 //  }
 
-const numbers = [1,2,3,4,5]
-const result = numbers.map((item)=> item )
-console.log("result:" ,result)
+const numbers = [1, 2, 3, 4, 5];
+
+// const result = numbers.map((item, index,arr)=> item)
+
+// const result = numbers.filter((item, index,arr)=>item>3)
+
+const result = numbers.reduce((acc, curr, index, arr) => {
+  return acc + curr;
+}, 0);
+console.log("result:", result);
