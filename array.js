@@ -40,4 +40,7 @@ const numbers = [1, 2, 3, 4, 5];
 
 // return the boolean when conditions satisfies for all the element
 // const result = numbers.every((item)=> item > 10)
+
+//return the element which matches the condition first else undefined
+const result = numbers.find((item)=> item>10)
 console.log("result:", result);
