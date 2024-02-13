@@ -42,5 +42,19 @@ const numbers = [1, 2, 3, 4, 5];
 // const result = numbers.every((item)=> item > 10)
 
 //return the element which matches the condition first else undefined
-const result = numbers.find((item)=> item>10)
-console.log("result:", result);
+// const result = numbers.find((item)=> item>10)
+// console.log("result:", result);
+
+//spread amnd rest operator
+
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+
+// const result = [...arr1, ...arr2]; //spread operator
+// console.log("result:", result);
+
+//spread operator
+// const mergeArray = (...nums) =>{
+// console.log(nums)
+// }
+// mergeArray(arr1,arr2,"rest")
