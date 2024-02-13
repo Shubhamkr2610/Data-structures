@@ -1,6 +1,5 @@
-const arr = ["apple", "banana", "orange","pineapple"]
-console.log(arr)
-
+// const arr = ["apple", "banana", "orange","pineapple"]
+// console.log(arr)
 
 //add new element to the in the last
 // arr.push("cherry")
@@ -25,3 +24,7 @@ console.log(arr)
 //     console.log(arr[i])
 //     i++
 //  }
+
+const numbers = [1,2,3,4,5]
+const result = numbers.map((item)=> item )
+console.log("result:" ,result)
