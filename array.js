@@ -35,6 +35,9 @@ const numbers = [1, 2, 3, 4, 5];
 //   return acc + curr;
 // }, 0);
 
-//return the boolean value as soon as satisfies the condition
-const result = numbers.some((item)=> item>10)
+// return the boolean when conditions satisfies for first the element
+// const result = numbers.some((item)=> item>4)
+
+// return the boolean when conditions satisfies for all the element
+// const result = numbers.every((item)=> item > 10)
 console.log("result:", result);
